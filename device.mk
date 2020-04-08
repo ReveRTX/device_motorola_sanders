@@ -330,7 +330,11 @@ PRODUCT_COPY_FILES += \
 # Qualcomm
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-oem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-oem.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-oem.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/qti_whitelist.xml
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.va_aosp.support=1
 
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
