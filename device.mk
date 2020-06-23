@@ -143,16 +143,20 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.configstore@1.0-service \
+    hdmi_cec.msm8953 \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libgenlock \
     libtinyxml \
     libdisplayconfig \
-    libqdMetaData.system
+    libdisplayconfig.vendor \
+    libqdMetaData \
+    libqdMetaData.system \
+    libgpu_tonemapper
 
 PRODUCT_PACKAGES += \
-    vendor.display.color@1.0-service \
-    vendor.display.color@1.0-impl
+    vendor.display.color@1.2-service \
+    vendor.display.color@1.2-impl
 
 # DRM
 PRODUCT_PACKAGES += \
