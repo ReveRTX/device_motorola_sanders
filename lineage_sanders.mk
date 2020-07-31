@@ -49,3 +49,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
+# for specific
+$(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
+
+#OFFICIAL
+SAKURA_OFFICIAL := true
