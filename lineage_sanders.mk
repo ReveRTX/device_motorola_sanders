@@ -54,3 +54,6 @@ $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
 #OFFICIAL
 SAKURA_OFFICIAL := true
+
+# Lawnchair/OPlauncher
+LAWNCHAIR_OPTOUT=true
