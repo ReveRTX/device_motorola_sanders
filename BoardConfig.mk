@@ -87,6 +87,10 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 #TARGET_KERNEL_CLANG_COMPILE := true
 #KERNEL_TOOLCHAIN_PATH := $(TOP)/prebuilts/clang/host/linux-x86/clang-r353983d/bin/clang
 
+#Vndk
+BOARD_VNDK_VERSION := current
+BOARD_VNDK_RUNTIME_DISABLE := true
+
 # Audio
 BOARD_SUPPORTS_SOUND_TRIGGER_HAL := true
 BOARD_USES_ALSA_AUDIO := true
