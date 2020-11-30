@@ -47,7 +47,9 @@ caps: NET_BIND_SERVICE
 user: AID_SYSTEM
 group: AID_RADIO
 mode: 0755
-caps: NET_BIND_SERVICE
+user: AID_RADIO
+group: AID_RADIO
+caps: WAKE_ALARM BLOCK_SUSPEND WAKE_ALARM
 
 [vendor/bin/pm-service]
 user: AID_SYSTEM
