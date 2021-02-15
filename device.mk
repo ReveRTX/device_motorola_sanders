@@ -24,6 +24,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
+    device/motorola/sanders/configs/privapp-permissions-sanders.xml:system/etc/permissions/privapp-permissions-sanders.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
